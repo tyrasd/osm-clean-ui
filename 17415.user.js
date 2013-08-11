@@ -76,7 +76,8 @@ function loadGlobalCSS() {
 		'.wrapper { margin-left: 0px !important; padding: 0 150px !important; } ' +
 		'#content { left: 0px !important; } ' +
 		'.diary_post { max-width: 100% !important; } ' +
-		'#message_title { width: 50% !important; }'
+		'#message_title { width: 50% !important; }' +
+                '.sidebar_heading { z-index: 1 !important; }'
 	 );
 }
 
