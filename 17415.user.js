@@ -49,10 +49,10 @@ function addGlobalStyle(device, css) {
 
 function loadGlobalCSS() {
 	addGlobalStyle('screen',
-		'#searchbox { background: rgba(255,255,255,.8); position: absolute; bottom: 50px; left: 50px !important; width: auto; height: auto; margin: 0px !important; padding: 10px !important; border-radius: 4px; -webkit-border-radius: 4px; box-shadow: 0 1px 7px 0px rgba(0,0,0,0.8); -webkit-box-shadow: 0 1px 7px 0px rgba(0,0,0,0.8); z-index:9999; } ' +
+		'#searchbox { background: rgba(255,255,255,.8); position: absolute; bottom: 50px; left: 10px !important; width: auto; height: auto; margin: 0px !important; padding: 3px 4px 3px 4px !important; border-radius: 2px; -webkit-border-radius: 2px; box-shadow: 0 0px 3px 0px rgba(0,0,0,0.8); -webkit-box-shadow: 0 0px 3px 0px rgba(0,0,0,0.8); z-index:9999; } ' +
 		'#search_form { width: 200px !important; } ' +
 		'#search_field input[type="submit"] { width: 20px !important; height: 20px !important; } ' +
-		'#search_field input[type="text"] { background: rgba(238,238,236,.8); border: 0 !important; border-radius: 4px; -webkit-border-radius: 4px; } ' +
+		'#search_field input[type="text"] { background: rgba(238,238,236,.8); border: 0 !important; border-radius: 2px; -webkit-border-radius: 4px; } ' +
 		'#search_field input[type="text"]:focus { outline: 0; box-shadow: 0 0 2px rgba(0,0,0,.8) inset; } ' +
 		'#query { width: 200px !important; height: 30px !important; } ' +
 		'#top-bar { background: rgba(255,255,255,.8); margin-left: 0px !important; } ' +
