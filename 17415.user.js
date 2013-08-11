@@ -99,12 +99,14 @@ function findAndFixLogo() {
 	var elmSmallTitle = document.getElementById('small-title');
 	if (!elmSmallTitle) { return; }
 
-	var elmA = elmSmallTitle.firstElementChild;
-	elmA.title = 'OpenStreetMap';
-
-	var elmImg = elmA.firstElementChild;
+	var elmImg = elmSmallTitle.firstElementChild;
 	elmImg.width = '24';
 	elmImg.height = '24';
+
+	var elmA = document.createElement('a');
+	elmA.href = "http://www.openstreetmap.org";
+	elmA.title = 'OpenStreetMap';
+	elmA.appendChild(elmImg);
 
 	var elmLi = document.createElement('li');
 	elmLi.appendChild(elmA);
